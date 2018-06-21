@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="desktopWalls"
+        android:summary="Turn this on or off"
+        android:title="Show Desktop size Wallpapers" />
+
+</PreferenceScreen>

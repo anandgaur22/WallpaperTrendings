@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        id="@+id/tab_search"
+        title="Search"
+        icon = "@drawable/search"
+        barColorWhenSelected = "@color/colorPrimary"/>
+    <tab
+        id="@+id/tab_categories"
+        title="Categories"
+        icon = "@drawable/categories"
+        barColorWhenSelected = "@color/colorPrimary"/>
+    <tab
+        id="@+id/tab_home"
+        title="Home"
+        icon = "@drawable/home"
+        barColorWhenSelected = "@color/colorPrimary"/>
+    <tab
+        id="@+id/tab_fav"
+        title="Favorites"
+        icon = "@drawable/favorite"
+        barColorWhenSelected = "@color/colorPrimary"/>
+    <tab
+        id="@+id/tab_downloaded"
+        title="Downloaded"
+        icon = "@drawable/download"
+        barColorWhenSelected = "@color/colorPrimary"/>
+</tabs>

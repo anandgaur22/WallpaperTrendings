@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "714987505727",
+    "firebase_url": "https://wallpaper-trending.firebaseio.com",
+    "project_id": "wallpaper-trending",
+    "storage_bucket": "wallpaper-trending.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:714987505727:android:bd1c08bb61afcf0b",
+        "android_client_info": {
+          "package_name": "in.co.androidadda.wallpapertrending"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "714987505727-jknjoc51ll9mvjij9re0t379ftftbutg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMEy1flGb03B7ADGTg6uAB0U5U-3FW5gc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

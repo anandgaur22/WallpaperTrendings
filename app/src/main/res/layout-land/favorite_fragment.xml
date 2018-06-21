@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorBackground">
+
+    <ImageView
+        android:padding="24dp"
+        android:id="@+id/broken_heart"
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:src="@drawable/broken_heart"
+        android:layout_centerHorizontal="false"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="104dp"/>
+
+    <TextView
+        android:layout_toRightOf="@id/broken_heart"
+        android:id="@+id/no_fav_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No Favorites yet!"
+        android:textSize="24dp"
+        android:padding="8dp"
+        android:textColor="@color/textColor"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Favorites?"
+        android:layout_marginEnd="29dp"
+        android:layout_below="@+id/no_fav_text"
+        android:layout_alignEnd="@+id/no_fav_text" />
+
+</RelativeLayout>

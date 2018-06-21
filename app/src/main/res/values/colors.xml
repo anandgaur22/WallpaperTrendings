@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#111112</color>
+    <color name="colorPrimaryDark">#20282d</color>
+    <color name="colorAccent">#909e9c</color>
+    <color name="colorAccentTransparent">#66aec4c1</color>
+    <color name="colorBackground">#1e282d</color>
+
+    <color name="tabSelected">#ecf0f1</color>
+    <color name="textColor">#aec7c3</color>
+    <color name="textColorHint">#80b4d2ce</color>
+
+    <color name="selectorDisables">#00000000</color>
+
+    <color name="white">#ffffff</color>
+    <color name="transparentColor">#00000000</color>
+    <color name="translucentBlackColor">#66000000</color>
+
+    <!--Intro Activity colors-->
+    <color name="color1">#4c354f</color>
+    <color name="color2">#9b59b6</color>
+    <color name="color3">#27ae60</color>
+    <color name="color4">#e74c3c</color>
+    <color name="color5">#27ae60</color>
+</resources>

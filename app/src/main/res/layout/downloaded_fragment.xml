@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:orientation="vertical">
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/downloaded_rv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="60dp"
+        android:layout_marginTop="55dp">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <ImageView
+        android:id="@+id/noDownloads"
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:padding="0dp"
+        android:src="@drawable/nodownloads"
+        android:visibility="visible"/>
+
+    <TextView
+        android:layout_above="@id/noDownloads"
+        android:id="@+id/no_download_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No Wallpapers Downloaded !"
+        android:textSize="20dp"
+        android:textColor="@color/textColor"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:visibility="visible"/>
+
+    <Button
+        android:id="@+id/download_now"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/noDownloads"
+        android:layout_centerHorizontal="true"
+        android:text="Download Now!"/>
+
+</RelativeLayout>
